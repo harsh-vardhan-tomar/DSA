@@ -1,7 +1,7 @@
 class Solution {
 public:
     void duplicateZeros(vector<int>& arr) {
-        const int n=arr.size();
+        int n=arr.size();
         if(n==1){
             return;
         }
