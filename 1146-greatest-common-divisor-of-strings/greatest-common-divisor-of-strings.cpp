@@ -8,9 +8,9 @@ public:
             a=b;
             b=rem;
         }
-        if(str1[a-1]!=str2[a-1]){
-            return "";
-        }
+        // if(str1[a-1]!=str2[a-1]){
+        //     return "";
+        // }
         if((str1+str2)!=(str2+str1)){
             return "";
         }
