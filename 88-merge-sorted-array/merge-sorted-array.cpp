@@ -26,6 +26,5 @@ public:
         for(int k=0;k<arr1.size();k++){
             arr1[k]=ans[k];
         }
-        
     }
 };
