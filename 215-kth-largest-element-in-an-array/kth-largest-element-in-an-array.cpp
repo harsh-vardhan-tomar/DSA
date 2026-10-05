@@ -2,10 +2,10 @@ class Solution {
 public:
     int findKthLargest(vector<int>& arr, int k) {
         
-        int ans=0;
+        //int ans=0;
         sort(arr.begin(),arr.end());
         // int n=arr.size();
-        // for(int i=arr.size()-1;i>=(n-k);i--){
+        // for(int i=arr.size()-1;i>=(n-k);i--){    //KHUD KA LOGIC
         //     ans=arr[i];
         // }
         // return ans;
