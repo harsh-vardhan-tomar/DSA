@@ -17,12 +17,8 @@ public:
 
         int i=0,j=n-1;
         while(i<j){
-            int mini=min(arr[i],arr[j]);
-            int dist=j-i;
-            int ans=mini*dist;
-            if(ans>finalAns){
-                finalAns=ans;
-            }
+            int area=min(arr[i],arr[j])*(j-i);
+            finalAns=max(finalAns,area);
             if(arr[i]<arr[j]){
                 i++;
             }
