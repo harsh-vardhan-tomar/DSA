@@ -1,5 +1,5 @@
 class Solution {
-    string getRoman(int digit, int j){  //n(0-9)
+    string getRoman(int digit, int j){  //digit(0-9)
         string ans;
         string one,five,ten;
         if(j==0){ one="I" ; five="V" ; ten="X";}
@@ -28,7 +28,7 @@ class Solution {
         return ans;
     }
 public:
-    string intToRoman(int n) {
+    string intToRoman(int n) {     // TC: O(1) , SC: O(1) 
         string ans;
         int count=0;
         int original=n;
