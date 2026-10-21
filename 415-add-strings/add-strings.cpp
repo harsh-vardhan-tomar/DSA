@@ -34,7 +34,7 @@ public:
             }
         }
         if(carry!=0){
-            ans+='1';
+            ans+=(carry+'0');
         }
         reverse(ans.begin(),ans.end());
         return ans;
