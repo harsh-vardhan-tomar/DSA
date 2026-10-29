@@ -25,7 +25,6 @@ class Solution {
     }
 public:
     int romanToInt(string s) {
-        int n=s.size();
         int sum=0;
         int i=0;
         while(i<s.size()-1){
@@ -37,7 +36,7 @@ public:
             }
             i++;
         }
-        sum+=getNumber(s[n-1]);
+        sum+=getNumber(s[s.size()-1]);
         return sum;
     }
 };
