@@ -39,7 +39,7 @@ public:
                 count=1;
             }
             else{
-                if(candidate==arr[i]){
+                if(arr[i]==candidate){
                     count++;
                 }
                 else{
