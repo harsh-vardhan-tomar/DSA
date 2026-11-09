@@ -7,12 +7,15 @@ public:
         // }
         // return n==1;
 
-        if(n==1){
-            return true;
-        }
-        if(n%4!=0){
-            return false;
-        }
-        return isPowerOfFour(n/4);
+        // if(n==1){
+        //     return true;
+        // }
+        // if(n%4!=0){
+        //     return false;
+        // }
+        // return isPowerOfFour(n/4);
+
+        double x=log(n)/log(4);
+        return x==(int)x;
     }
 };
